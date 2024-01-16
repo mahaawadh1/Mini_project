@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textType"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Transaction Type: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Date : "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Amount: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Balance: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textAccount"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Account: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textTransactionId"
+        android:layout_width="73dp"
+        android:layout_height="19dp"
+        android:text="Transaction Id : "
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
